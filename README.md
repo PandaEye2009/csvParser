@@ -105,7 +105,7 @@ A small C++11 library, for sql builder, support insert update delete select for 
         auto p1 = pool.find_node<double>();
         *p1 = 1.0;
         A* a = pool.find_node<A>(100)A;
-
+ 
         pool.free_node(p);
         pool.free_node(p1);
         pool.free_node(a);
